@@ -1,4 +1,7 @@
-#include "csmith.h"
+typedef signed int __int32_t;
+typedef unsigned int __uint32_t;
+typedef __int32_t int32_t;
+typedef __uint32_t uint32_t;
 static int32_t g_10[7] = {4,1,4,4,1,4,4};
 static int32_t *g_66[1][3][2] = {{{&g_10[1],&g_10[1]},{&g_10[1],&g_10[1]},{&g_10[1],&g_10[1]}}};
 static int32_t ** volatile g_830 = &g_66[0][0][0];
